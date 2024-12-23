@@ -1,0 +1,49 @@
+{
+  "name": "nestjs-utility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "files": [
+    "./dist/**"
+  ],
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prepare": "husky install",
+    "build": "rimraf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilisoftware/nestjs-utility.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bilisoftware/nestjs-utility/issues"
+  },
+  "homepage": "https://github.com/bilisoftware/nestjs-utility#readme",
+  "devDependencies": {
+    "@nestjs/common": "9.3.5",
+    "@nestjs/core": "9.3.5",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "lint-staged": "15.2.0",
+    "organize-imports-cli": "^0.10.0",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "typeorm": "~0.3.0"
+  },
+  "dependencies": {
+    "@kafkajs/confluent-schema-registry": "^3.3.0",
+    "husky": "^8.0.3",
+    "kafkajs": "^2.2.3",
+    "reflect-metadata": "^0.1.13"
+  }
+}

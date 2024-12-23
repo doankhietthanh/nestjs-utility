@@ -1,0 +1,7 @@
+{
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "git.branchProtection": ["develop", "prod", "stage"],
+  "git.branchProtectionPrompt": "alwaysCommitToNewBranch",
+  "cSpell.enableFiletypes": ["shellscript"],
+  "cSpell.ignorePaths": ["**/package.json"]
+}
